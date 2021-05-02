@@ -12,10 +12,10 @@ ________________________________________________________________________________
 ### 1. Created model classes Ticket and Employee with @Entity annotation.
 >1.1 Created 3 enum in com.nagarro.travelportal.enum package
 	
-### 2. created dao classes with @Respository annotation.
+### 2. Created dao classes with @Respository annotation.
 >2.1 Added mysql connection parameters to properties file.
 
-### 3. created service classes containing basic service methods for controllers, with @Service annotation.
+### 3. Created service classes containing basic service methods for controllers, with @Service annotation.
 >3.1 Injected the dao class dependency to use its methods.
 
 ### 4. Created a email service class with @Service which will be used to send welcome and credentials emails.
@@ -24,7 +24,7 @@ ________________________________________________________________________________
 > 
 >4.2 implemented a password service class that uses passay to genrate random passswords.
 
-### 5. created configuration files for JWTAuthentication.added secret key in applications.property
+### 5. Created configuration files for JWTAuthentication.added secret key in applications.property
 
 >5.1 JwtTokenutil deals with generating and validationg a jwt token. also sess if token is expired or not.
 >
