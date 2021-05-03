@@ -100,7 +100,7 @@ public class UserTicketController {
      * @return the response entity byte array
      */
     @ResponseBody
-    @GetMapping("/downloadFile/{id}")
+    @GetMapping("/files/{id}")
     public ResponseEntity<byte[]> downloadFile(@PathVariable(value = "id") Integer id) {
         byte[] file = ticketService.getTicketById(id).getFiles();
         HttpHeaders headers = new HttpHeaders();

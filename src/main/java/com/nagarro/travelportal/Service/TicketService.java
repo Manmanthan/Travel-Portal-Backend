@@ -93,7 +93,7 @@ public class TicketService {
         String fileDownloadUri = null;
         if (file != null) {
             byte[] _file = file.getBytes();
-            fileDownloadUri = ServletUriComponentsBuilder.fromCurrentContextPath().path("/downloadFile/").path(id)
+            fileDownloadUri = ServletUriComponentsBuilder.fromCurrentContextPath().path("/files/").path(id)
                     .toUriString();
             // Add file related information
             toUpdate.setFiles(_file);

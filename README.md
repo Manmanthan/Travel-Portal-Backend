@@ -102,4 +102,14 @@ ________________________
    > Checks if user exist with this email
    mail is sent with username password, else
    404 response is sent with message "user not found".
-   
+
+_________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+
+
+## Admin Edit Ticket Flow :
+________________________
+
+1. Admin can update the ticket status if all the required information is correct.
+2. Once the Admin changes the ticket status to in process, the user cannot change any details.
+3. If admin wants the user to update something then the status can be left blank.
